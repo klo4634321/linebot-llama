@@ -38,3 +38,18 @@
 
 3. **LINE 訊息傳送**:  
    在 LINE 聊天對話中選擇你的聊天機器人，並傳送文字訊息。LINE Bot 會將訊息發送給 LLaMA 模型，並返回 LLaMA 的回應。
+
+
+## 使用到的技能與技術
+
+1. **Flask**  
+   使用 Flask 作為 Web 框架，來處理 LINE Bot 的 webhook 請求，並管理伺服器端的邏輯。
+
+2. **LINE Messaging API**  
+   利用 LINE Messaging API 建立並管理 LINE Bot，實現消息的接收與回應。需要使用 LINE Developers 進行 Token 設定與 webhook 配置。
+
+3. **LLaMA 模型**  
+   使用 LLaMA (Meta-LLaMA) 進行文本生成，並將其整合進 LINE Bot 中，以便於用戶發送的訊息能夠經過 LLaMA 模型進行處理並返回回應。
+
+4. **ngrok**  
+   使用 ngrok 將本地伺服器暴露至公共網路，使得 LINE 的 webhook 請求能夠成功轉發到本地運行的 Flask 伺服器。
