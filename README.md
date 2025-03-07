@@ -2,6 +2,13 @@
 
 這個專案展示如何將 **LLaMA** 模型與 **LINE Bot** 結合，並使用 `Flask` 框架來處理 LINE Bot 的 webhook。當用戶發送訊息給 LINE Bot 時，Bot 將訊息傳送給本地的 LLaMA 模型，並將 LLaMA 回應回傳給用戶。
 
+![Flask](https://img.shields.io/badge/Flask-%23000.svg?logo=flask&logoColor=white)
+![LLaMA](https://img.shields.io/badge/LLaMA-%230080C0.svg?logo=meta&logoColor=white)
+![LINE Messaging API](https://img.shields.io/badge/LINE_Messaging_API-%2300C300.svg?logo=line&logoColor=white)
+![ngrok](https://img.shields.io/badge/ngrok-%23FF6600.svg?logo=ngrok&logoColor=white)
+
+
+
 ## 如何使用
 
 1. **確保以下設置都正確**:  
