@@ -21,7 +21,7 @@
      ```bash
      ngrok http 5000
      ```  
-     
+     然後將Forwarding複製(不能用Ctrl+C，會關掉程式)，貼到LINE Developers - Webhook URL + //webhook
    b. **執行 llama.py**  
      執行以下命令啟動 LLaMA 模型：  
      ```bash
